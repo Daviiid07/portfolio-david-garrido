@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de David Garrido Quiles - Desarrollador de Aplicaciones Multiplataforma">
+    <meta name="author" content="David Garrido Quiles">
+    <title>David Garrido Quiles | Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark">
+    <!-- Header / Navegación -->
+    <header id="header">
+        <div class="container header-content">
+            <a href="#inicio" class="logo">DGQ</a>
+            
+            <nav class="nav-desktop">
+                <a href="#inicio">Inicio</a>
+                <a href="#sobre-mi">Sobre mí</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#experiencia">Experiencia</a>
+                <a href="#formacion">Formación</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#contacto">Contacto</a>
+                <button id="theme-toggle" class="theme-btn" aria-label="Cambiar tema">
+                    <i class="fas fa-sun"></i>
+                </button>
+            </nav>
+            
+            <div class="nav-mobile-controls">
+                <button id="theme-toggle-mobile" class="theme-btn" aria-label="Cambiar tema">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <button id="menu-toggle" class="menu-btn" aria-label="Abrir menú">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Menú móvil -->
+        <nav id="mobile-menu" class="nav-mobile">
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#experiencia">Experiencia</a>
+            <a href="#formacion">Formación</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección Hero / Inicio -->
+        <section id="inicio" class="hero">
+            <div class="hero-bg"></div>
+            <div class="hero-grid"></div>
+            
+            <div class="container hero-content">
+                <span class="hero-badge">Bienvenido a mi portfolio</span>
+                
+                <!-- Foto de perfil -->
+                <div class="hero-photo">
+                    <img src="assets/img/foto-perfil.jpg" alt="David Garrido Quiles" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 200%22><rect fill=%22%231e293b%22 width=%22200%22 height=%22200%22/><text x=%22100%22 y=%22105%22 text-anchor=%22middle%22 fill=%22%233b82f6%22 font-size=%2260%22 font-family=%22Inter%22>DGQ</text></svg>'">
+                </div>
+                
+                <h1 class="hero-title">David Garrido Quiles</h1>
+                <h2 class="hero-subtitle">Desarrollador de Aplicaciones Multiplataforma</h2>
+                <p class="hero-description">
+                    Estudiante de Desarrollo de Aplicaciones Multiplataforma (DAM) enfocado en crear soluciones software funcionales y eficientes, con interés en desarrollo backend y aplicaciones multiplataforma.
+                </p>
+                
+                <div class="hero-buttons">
+                    <a href="#proyectos" class="btn btn-primary">
+                        <i class="fas fa-folder-open"></i> Ver proyectos
+                    </a>
+                    <a href="#contacto" class="btn btn-outline">
+                        <i class="fas fa-envelope"></i> Contacto
+                    </a>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </section>
+
+        <!-- Sección Sobre Mí -->
+        <section id="sobre-mi" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Sobre <span class="gradient-text">mí</span></h2>
+                <div class="section-divider"></div>
+                
+                <div class="about-content">
+                    <article class="about-text">
+                        <h3>Mi historia</h3>
+                        <p>Soy estudiante del ciclo formativo de Desarrollo de Aplicaciones Multiplataforma (DAM) y actualmente resido en Castellar de Santiago (Ciudad Real). Me estoy formando en programación, bases de datos y desarrollo de aplicaciones tanto de escritorio como móviles.</p>
+                        
+                        <p>Durante mi formación estoy trabajando principalmente con tecnologías como Java, SQL y desarrollo de interfaces, lo que me ha permitido entender mejor cómo se estructura un software desde su diseño hasta su implementación. Me interesa especialmente el desarrollo de aplicaciones funcionales y bien organizadas, con una arquitectura limpia y escalable.</p>
+                        
+                        <p>Me considero una persona constante, resolutiva y con facilidad para el aprendizaje autodidacta. Tengo buena capacidad de análisis para resolver problemas y me adapto bien al trabajo tanto individual como en equipo, algo que considero clave en el desarrollo de software.</p>
+                        
+                        <p>Mi objetivo es seguir mejorando como desarrollador, consolidar una base sólida en ingeniería de software y adquirir experiencia práctica que me permita evolucionar hacia un perfil profesional en el sector del desarrollo de aplicaciones.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Habilidades -->
+        <section id="habilidades" class="section">
+            <div class="container">
+                <h2 class="section-title">Habilidades <span class="gradient-text">técnicas</span></h2>
+                <div class="section-divider"></div>
+                
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <div class="skill-icon"><i class="fab fa-java"></i></div>
+                        <span class="skill-name">Java</span>
+                        <span class="skill-level">Intermedio</span>
+                    </article>
+                    
+                    <article class="skill-card">
+                        <div class="skill-icon"><i class="fab fa-js"></i></div>
+                        <span class="skill-name">JavaScript</span>
+                        <span class="skill-level">Básico</span>
+                    </article>
+                    
+                    <article class="skill-card">
+                        <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                        <span class="skill-name">HTML / CSS</span>
+                        <span class="skill-level">Intermedio</span>
+                    </article>
+                    
+                    <article class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-code"></i></div>
+                        <span class="skill-name">JSON</span>
+                        <span class="skill-level">Intermedio</span>
+                    </article>
+                    
+                    <article class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-network-wired"></i></div>
+                        <span class="skill-name">APIs REST</span>
+                        <span class="skill-level">Básico</span>
+                    </article>
+                    
+                    <article class="skill-card">
+                        <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                        <span class="skill-name">Git / GitHub</span>
+                        <span class="skill-level">Intermedio</span>
+                    </article>
+                    
+                    <article class="skill-card">
+                        <div class="skill-icon"><i class="fab fa-linux"></i></div>
+                        <span class="skill-name">Linux</span>
+                        <span class="skill-level">Básico</span>
+                    </article>
+                    
+                    <article class="skill-card">
+                        <div class="skill-icon"><i class="fab fa-windows"></i></div>
+                        <span class="skill-name">Windows Server</span>
+                        <span class="skill-level">Básico</span>
+                    </article>
+                    
+                    <article class="skill-card">
+                        <div class="skill-icon"><i class="fas fa-database"></i></div>
+                        <span class="skill-name">MySQL</span>
+                        <span class="skill-level">Intermedio</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Experiencia -->
+        <section id="experiencia" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Experiencia <span class="gradient-text">laboral</span></h2>
+                <div class="section-divider"></div>
+                
+                <div class="timeline">
+                    <div class="timeline-line"></div>
+                    
+                    <article class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <div class="timeline-header">
+                                    <h3>Soporte técnico en Sistemas Microinformáticos (prácticas FCT)</h3>
+                                    <span class="timeline-duration">3 meses</span>
+                                </div>
+                                <p class="timeline-company">Tecnobit</p>
+                                <p class="timeline-period">2024-2025</p>
+                                <ul class="timeline-responsibilities">
+                                    <li><i class="fas fa-check-circle"></i> Soporte técnico a usuarios</li>
+                                    <li><i class="fas fa-check-circle"></i> Mantenimiento de equipos informáticos</li>
+                                    <li><i class="fas fa-check-circle"></i> Instalación y configuración de sistemas operativos</li>
+                                    <li><i class="fas fa-check-circle"></i> Resolución de incidencias de hardware y software</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Formación -->
+        <section id="formacion" class="section">
+            <div class="container">
+                <h2 class="section-title">Formación <span class="gradient-text">académica</span></h2>
+                <div class="section-divider"></div>
+                
+                <div class="timeline">
+                    <div class="timeline-line timeline-line-cyan"></div>
+                    
+                    <article class="timeline-item">
+                        <div class="timeline-dot timeline-dot-cyan"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-icon timeline-icon-cyan">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <div class="timeline-header">
+                                    <h3>Grado Superior – Desarrollo de Aplicaciones Multiplataforma (DAM)</h3>
+                                    <span class="timeline-date"><i class="fas fa-calendar"></i> 2025 – En curso</span>
+                                </div>
+                                <p class="timeline-company timeline-company-cyan">IES Gregorio Prieto</p>
+                                <span class="badge badge-success">En curso</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="timeline-item">
+                        <div class="timeline-dot timeline-dot-cyan"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-icon timeline-icon-cyan">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <div class="timeline-header">
+                                    <h3>Grado Medio – Sistemas Microinformáticos y Redes</h3>
+                                    <span class="timeline-date"><i class="fas fa-calendar"></i> 2023 – 2025</span>
+                                </div>
+                                <p class="timeline-company timeline-company-cyan">IES Gregorio Prieto</p>
+                                <span class="badge badge-primary"><i class="fas fa-award"></i> Matrícula de Honor</span>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="timeline-item">
+                        <div class="timeline-dot timeline-dot-cyan"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-icon timeline-icon-cyan">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <div class="timeline-header">
+                                    <h3>Curso de Inteligencia Artificial y Productividad</h3>
+                                    <span class="timeline-date"><i class="fas fa-calendar"></i> 2 horas (2 módulos)</span>
+                                </div>
+                                <p class="timeline-company timeline-company-cyan">Google</p>
+                                <p class="timeline-description">Formación introductoria en IA aplicada a productividad</p>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="timeline-item">
+                        <div class="timeline-dot timeline-dot-cyan"></div>
+                        <div class="timeline-card">
+                            <div class="timeline-icon timeline-icon-cyan">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <div class="timeline-header">
+                                    <h3>Educación Secundaria Obligatoria (ESO)</h3>
+                                    <span class="timeline-date"><i class="fas fa-calendar"></i> 2019 – 2023</span>
+                                </div>
+                                <p class="timeline-company timeline-company-cyan">IES Máximo Laguna</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Proyectos -->
+        <section id="proyectos" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Proyectos <span class="gradient-text">destacados</span></h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Aquí podrás ver mis proyectos destacados a medida que los vaya desarrollando.</p>
+                
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=600&fit=crop" alt="Proyectos en desarrollo">
+                            <div class="project-overlay"></div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Proyectos en desarrollo</h3>
+                            <p class="project-description">Actualmente estoy trabajando en varios proyectos que estarán disponibles próximamente. Mientras tanto, estoy enfocado en mi formación y en adquirir nuevas habilidades técnicas.</p>
+                            <div class="project-tags">
+                                <span class="tag">Próximamente</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Contacto -->
+        <section id="contacto" class="section">
+            <div class="container">
+                <h2 class="section-title">¡Conectemos<span class="gradient-text">!</span></h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Estoy abierto a oportunidades de prácticas, proyectos colaborativos y nuevas conexiones profesionales.</p>
+                
+                <div class="contact-grid">
+                    <article class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>GitHub</h3>
+                            <p>Repositorios y proyectos</p>
+                        </div>
+                        <a href="https://github.com/Daviiid07/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-full">
+                            <i class="fab fa-github"></i> Visitar perfil
+                        </a>
+                    </article>
+                    
+                    <article class="contact-card contact-card-cyan">
+                        <div class="contact-icon contact-icon-cyan">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h3>LinkedIn</h3>
+                            <p>Red profesional</p>
+                        </div>
+                        <a href="https://www.linkedin.com/in/david-garrido-91a9652b9/" target="_blank" rel="noopener noreferrer" class="btn btn-cyan btn-full">
+                            <i class="fab fa-linkedin"></i> Visitar perfil
+                        </a>
+                    </article>
+                </div>
+                
+                <div class="contact-location">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Castellar de Santiago, Ciudad Real</span>
+                    <p>Estudiante de DAM | Disponible para prácticas y colaboraciones</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h3 class="footer-name">David Garrido Quiles</h3>
+                <p>Desarrollador de Aplicaciones Multiplataforma</p>
+            </div>
+            
+            <div class="footer-social">
+                <a href="https://github.com/Daviiid07/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/david-garrido-91a9652b9/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>© <span id="current-year"></span> David Garrido Quiles</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
