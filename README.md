@@ -78,4 +78,4 @@ portfolio/
 └── README.md     
 ```
 
-*Portfolio desarrollado para la asignatura de 1º DAM - IES Gregorio Prieto*
+*Portfolio desarrollado por David Garrido Quiles*
