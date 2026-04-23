@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Portfolio web personal desarrollado como parte de la asignatura de 1º DAM (Desarrollo de Aplicaciones Multiplataforma). Este sitio web actúa como tarjeta de presentación profesional, mostrando mis proyectos, habilidades, formación y experiencia.
+Portfolio personal desarrollado como proyecto de presentación, donde recopilo y muestro mis habilidades en desarrollo de software. Incluye proyectos realizados durante mi formación en el ciclo de Desarrollo de Aplicaciones Multiplataforma (DAM), así como mis diferentes habilidades técnicas, mi experiencia laboral, mi formación previa como la actual y mis plataformas de contacto.
 
 ## URL de la página publicada
 
@@ -30,7 +30,7 @@ Portfolio web personal desarrollado como parte de la asignatura de 1º DAM (Desa
 ### Justificación de la paleta
 
 He elegido una combinación de azul y cyan porque:
-- **Azul (#3B82F6)**: Transmite profesionalidad, confianza y tecnología. Es un color muy utilizado en el sector tech.
+- **Azul (#3B82F6)**: Transmite profesionalidad, confianza y tecnología.
 - **Cyan (#06B6D4)**: Aporta frescura y modernidad, creando un contraste agradable con el azul principal.
 - La combinación de ambos colores genera un degradado visualmente atractivo que mantiene coherencia con el ámbito tecnológico.
 
@@ -42,27 +42,14 @@ He implementado un **selector de tema claro/oscuro** como elemento diferenciador
 
 - **Funcionalidad**: Permite al usuario cambiar entre modo oscuro y modo claro según su preferencia
 - **Persistencia**: El tema seleccionado se guarda en `localStorage` y se mantiene en futuras visitas
-- **Accesibilidad**: Ambos temas mantienen un contraste adecuado (WCAG AA)
+- **Accesibilidad**: Ambos temas mantienen un contraste adecuado
 - **Implementación**: JavaScript vanilla sin dependencias externas
-
-**¿Por qué lo elegí?**
-
-El dark mode es una característica muy valorada actualmente, especialmente entre desarrolladores. Demuestra:
-1. Conocimiento de CSS custom properties (variables)
-2. Uso de localStorage para persistencia de datos
-3. Manipulación del DOM con JavaScript puro
-4. Atención a la experiencia de usuario
 
 ## Uso de IA
 
 Durante el desarrollo de este portfolio he utilizado herramientas de IA de la siguiente manera:
 
-- **Generación de código**: Utilicé asistentes de IA para generar la estructura base del HTML y CSS, que posteriormente adapté y personalicé según mis necesidades.
-- **Ideas de diseño**: Consulté sobre mejores prácticas de UX/UI para portfolios de desarrolladores.
-- **Revisión de código**: Usé IA para identificar posibles errores y optimizar el código.
-- **Textos**: Los textos de "Sobre mí" y descripciones fueron redactados por mí y revisados con IA para mejorar la redacción.
-
-**Nota**: Todo el contenido es real y personal. He revisado y adaptado cada parte del código para entenderlo completamente.
+- He utilizado herramientas de inteligencia artificial, principalmente Claude, como apoyo durante el desarrollo del proyecto. Me ha servido para generar una gran base inicial de la estructura de la página web, así como para mejorar e implementar mis ideas durante el proceso de desarrollo. También me ha ayudado a identificar y corregir errores, lo que me ha permitido avanzar de forma más eficiente en la construcción del proyecto.
 
 ## Dificultades encontradas y soluciones
 
@@ -82,29 +69,13 @@ Durante el desarrollo de este portfolio he utilizado herramientas de IA de la si
 
 ```
 portfolio/
-├── index.html          # Página principal
-├── style.css           # Estilos CSS
-├── script.js           # JavaScript
+├── index.html
+├── style.css  
+├── script.js      
 ├── assets/
 │   └── img/
-│       └── foto-perfil.jpg  # Tu foto real
-└── README.md           # Este archivo
+│       └── foto-perfil.jpg
+└── README.md     
 ```
-
-## Instrucciones para publicar en GitHub Pages
-
-1. Crear repositorio con nombre `portfolio-david-garrido`
-2. Subir todos los archivos
-3. Ir a Settings → Pages
-4. Seleccionar Branch: `main` y carpeta: `/ (root)`
-5. Guardar y esperar unos minutos
-6. La URL estará disponible en: `https://[tu-usuario].github.io/portfolio-david-garrido/`
-
-## Contacto
-
-- **GitHub**: [Daviiid07](https://github.com/Daviiid07/)
-- **LinkedIn**: [David Garrido](https://www.linkedin.com/in/david-garrido-91a9652b9/)
-
----
 
 *Portfolio desarrollado para la asignatura de 1º DAM - IES Gregorio Prieto*
