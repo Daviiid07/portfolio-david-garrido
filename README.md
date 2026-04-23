@@ -6,9 +6,8 @@ Portfolio web personal desarrollado como parte de la asignatura de 1º DAM (Desa
 
 ## URL de la página publicada
 
-> **Nota:** Completar con la URL de GitHub Pages una vez publicado
-> 
-> `https://[tu-usuario].github.io/portfolio-david-garrido/`
+> **https://daviiid07.github.io/portfolio-david-garrido:**
+
 
 ## Tecnologías utilizadas
 
