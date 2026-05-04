@@ -6,7 +6,7 @@ Portfolio personal desarrollado como proyecto de presentación, donde recopilo y
 
 ## URL de la página publicada
 
-> **https://daviiid07.github.io/portfolio-david-garrido:**
+> **https://daviiid07.github.io/portfolio-david-garrido**
 
 
 ## Tecnologías utilizadas
