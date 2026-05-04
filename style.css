@@ -435,17 +435,17 @@ body.light .hero-description {
 
 .hero-buttons {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 1rem;
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding-bottom: 4rem;
+    margin-top: 0.5rem;
 }
 
 .scroll-indicator {
     position: relative;
-    margin-top: 2rem;
+    margin-top: 4rem;
     animation: bounce 2s infinite;
     font-size: 1.5rem;
     text-align: center;
@@ -972,9 +972,9 @@ body.light .project-description {
 /* ===== Contacto ===== */
 .contact-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto 2rem;
 }
 
@@ -1207,6 +1207,17 @@ body.light .footer-bottom {
 
 /* ===== Media Queries ===== */
 
+/* Mobile - botones en columna y contacto responsive */
+@media (max-width: 767px) {
+    .hero-buttons {
+        flex-direction: column;
+    }
+    
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* Tablet */
 @media (min-width: 768px) {
     .nav-desktop {
@@ -1215,10 +1226,6 @@ body.light .footer-bottom {
     
     .nav-mobile-controls {
         display: none;
-    }
-    
-    .hero-buttons {
-        flex-direction: row;
     }
     
     .hero-photo {
