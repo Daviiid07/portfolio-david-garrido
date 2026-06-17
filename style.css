@@ -669,6 +669,28 @@ body.light .skill-card {
 }
 
 /* ===== Timeline (Experiencia y Formación) ===== */
+.timeline-subtitle {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.timeline-subtitle-spaced {
+    margin-top: 3rem;
+}
+
+body.dark .timeline-subtitle {
+    color: var(--text-dark-muted);
+}
+
+body.light .timeline-subtitle {
+    color: var(--text-light-muted);
+}
+
 .timeline {
     position: relative;
     max-width: 800px;
@@ -800,6 +822,27 @@ body.dark .timeline-description {
 
 body.light .timeline-description {
     color: var(--text-light-muted);
+}
+
+.timeline-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-top: 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--color-secondary);
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+}
+
+.timeline-link:hover {
+    opacity: 0.75;
+    text-decoration: underline;
+}
+
+.timeline-link i {
+    font-size: 0.75rem;
 }
 
 .timeline-responsibilities {
